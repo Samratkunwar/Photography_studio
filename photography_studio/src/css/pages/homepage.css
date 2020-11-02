@@ -1,0 +1,27 @@
+/* css property to blur put background except the hovered element */
+.homepage img {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    transition: 1s;
+}
+
+.homepage:hover img {
+    -webkit-filter: blur(13px);
+    -moz-filter: blur(13px);
+    -o-filter: blur(13px);
+    -ms-filter: blur(13px);
+    filter: blur(13px);
+    transition: all 2s;
+}
+
+.homepage:hover img:hover {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    transition: all 2s;
+}
