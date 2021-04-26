@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    margin-bottom: 2rem;
+}
+
+
+.img-container-before, .img-container-after {
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+}
+
+.img-container-before {
+    width: 20vw;
+    overflow: hidden;
+}
+
+img {
+    width: 40vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.sliderBar {
+    width: .5rem;
+    background: #fff;
+    height: 100%;
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(100%, 0%);
+    pointer-events: none;
+}

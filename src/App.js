@@ -6,16 +6,18 @@ import './App.css';
 import './themes/variables.css';
 import './css/style';
 
-import Home from './pages/home/home.page';
-import NavMenu from './components/NavMenu/navmenu.component';
+import Home from './pages/home/home';
+// import NavMenu from './components/NavMenu/navmenu';
+import Gallery from './pages/Gallery/gallery';
 
 
 function App() {
   return (
 
     <div className="App">
-      <NavMenu />
+      {/* <NavMenu /> */}
       <Route path="/" component={Home} exact />
+      <Route path="/gallery" component={Gallery} exact />
     </div>
 
     // <div className="App">
