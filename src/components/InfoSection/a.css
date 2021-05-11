@@ -1,0 +1,100 @@
+.section {
+    color: #fff;
+    padding: 60px 0;
+    background: #101522;
+    font-family: 'Shippori Mincho B1', serif;
+    border: 1px solid red;
+};
+
+
+
+.container {
+    color: rebeccapurple;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+/* .container {
+    color: rebeccapurple; */
+    /* z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: left; */
+    /* @media screen and (max-width: 991px) {
+        padding-right: 30px;
+        padding-left: 30px;
+    } */
+/* }; */
+
+.infoRow {
+    display: flex;
+    margin: 0 -15px -15px -15px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+};
+
+.infoColumn{
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+    /* @media screen and (max-width: 768px) {
+        max-width: 100%;
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    } */
+};
+
+.textWrapper {
+    max-width: 100%;
+    padding-top: 0;
+    padding-bottom: 60px;
+    
+    /* @media screen and (max-width: 768px) {
+        padding-bottom: 65px;
+    } */
+};
+
+.heading {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    color: #1c2237;
+};
+
+.description {
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1c2237;
+};
+
+.imgWrapper {
+    max-width: 555px;
+    display: flex;
+    justify-content: flex-end;
+};
+
+.image {
+    padding-right: 0;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 500px;
+};
